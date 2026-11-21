@@ -1,0 +1,8 @@
+import Shellsort.ExecutionCornerWinner
+import Shellsort.PairedGateCorrectionSum
+import Shellsort.ThreePassClosedMean
+
+#check Shellsort.ExecutionCornerWinner.actual_winner
+#print axioms Shellsort.ExecutionCornerWinner.actual_winner
+#check Shellsort.ThreePassClosedMean.executed_closed
+#print axioms Shellsort.ThreePassClosedMean.executed_closed
