@@ -2,7 +2,7 @@
 
 Miaozhen Yu (俞缪臻) · [Project S directory](https://github.com/EternalYMZ/Optimal-mean-costs-of-three-pass-Shellsort/blob/main/PROJECT-S.md)
 
-For two initial gaps at least half the input length, Lean connects the executed mean comparison count to the closed finite formula. A second root proves an exact optimizer in the specified corner for n ≥ 1000. The proposed full-domain threshold n ≥ 237 is outside the checked winner statement.
+For a uniform permutation of distinct keys, consider ordinary Shellsort with gaps (n-a, n-b, 1). Lean connects its executed mean key comparisons to a finite formula when both initial gaps are at least n/2. For every n ≥ 237, set b = floor(n/2). Among all integers a satisfying b ≤ 2a and a < b, the unique minimizer is floor((14n + 34b - 50)/92). Comparing against smaller b or against 2a < b at this fixed b remains open in this formalization.
 
 ## Check the Lean statements
 
