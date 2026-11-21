@@ -14,3 +14,4 @@ import Shellsort.ThreePassClosedMean
 
 #check Shellsort.TwoGapHalfWinner.actual_half_winner
 #print axioms Shellsort.TwoGapHalfWinner.actual_half_winner
+import Shellsort.TwoGapInterior
