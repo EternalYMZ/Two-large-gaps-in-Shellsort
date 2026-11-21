@@ -17,4 +17,4 @@ lake build
 
 ## Proof guide
 
-[Read the proof idea in Chinese](brief.md). For n ≥ 237 and n > h > g ≥ ceil(n/2), the unique minimizing table is (n−w,n−B,1), with B=floor(n/2) and w=floor((14n+34B−50)/92). See Shellsort/TwoGapInterior.lean.
+[Read the proof guide](brief.md). For n ≥ 237 and n > h > g ≥ ceil(n/2), the unique minimizing table is (n−w,n−B,1), with B=floor(n/2) and w=floor((14n+34B−50)/92). See Shellsort/TwoGapInterior.lean.
