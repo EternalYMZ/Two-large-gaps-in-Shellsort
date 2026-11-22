@@ -3,6 +3,7 @@ import Shellsort.TwoGapOverlapWinner
 import Shellsort.ExecutionCornerWinner
 import Shellsort.PairedGateCorrectionSum
 import Shellsort.ThreePassClosedMean
+import Shellsort.TwoGapInterior
 
 #check Shellsort.ExecutionCornerWinner.actual_winner
 #print axioms Shellsort.ExecutionCornerWinner.actual_winner
@@ -14,4 +15,6 @@ import Shellsort.ThreePassClosedMean
 
 #check Shellsort.TwoGapHalfWinner.actual_half_winner
 #print axioms Shellsort.TwoGapHalfWinner.actual_half_winner
-import Shellsort.TwoGapInterior
+
+#print axioms Shellsort.TwoGapInterior.actual_large_gap_winner
+#print axioms Shellsort.TwoGapInterior.counterexample_236

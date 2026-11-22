@@ -9,3 +9,5 @@ The proof compares adjacent values of $a$ and controls the change in the record-
 For an interior lattice point below $b=\lfloor n/2\rfloor$, the finite formula gives a legal step increasing either $a$ or $b$ by one and strictly decreasing cost. The sum $a+b$ increases on a finite set, so improvement reaches the boundary. This extends uniqueness to the entire two-large-gap class. At $n=236$ the formula gives $(158,118,1)$ and $(157,118,1)$ costs strictly less on average, establishing the exact onset. Smaller second gaps can produce longer chains and require another analysis.
 
 [ThreePassClosedMean.lean](https://github.com/EternalYMZ/Two-large-gaps-in-Shellsort/blob/ab5b5b784e5487ceca89e2b17abcd7fa4d418f67/Shellsort/ThreePassClosedMean.lean) · [TwoGapOverlapWinner.lean](https://github.com/EternalYMZ/Two-large-gaps-in-Shellsort/blob/ab5b5b784e5487ceca89e2b17abcd7fa4d418f67/Shellsort/TwoGapOverlapWinner.lean) · [TwoGapHalfWinner.lean](https://github.com/EternalYMZ/Two-large-gaps-in-Shellsort/blob/ab5b5b784e5487ceca89e2b17abcd7fa4d418f67/Shellsort/TwoGapHalfWinner.lean)
+
+[Full two-large-gap optimum and the n = 236 counterexample](Shellsort/TwoGapInterior.lean)
